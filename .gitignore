@@ -1,0 +1,9 @@
+# python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv
+
+# IDEs
+.vscode

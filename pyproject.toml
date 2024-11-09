@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sqlalchemy-memory-investigation"
+version = "1.0.0"
+description = ""
+authors = ["Sergej Herbert"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+SQLAlchemy = {extras = ["asyncio"], version = "^2.0.35"}
+psycopg = {extras = ["binary"], version = "^3.2.3"}
+pydantic = "^2.9.2"
+psutil = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

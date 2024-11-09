@@ -1,0 +1,8 @@
+[flake8]
+# E503: whitespace before ':' (avoid clashes with black formatting)
+# W503: Line break occurred before a binary operator
+# B008: Providing default function variables that are resolved from function calls or class instantiations
+# E402: module level import not at top of file
+ignore = W503,E503,B008, E402
+max-line-length = 100
+exclude = .git,__pycache__,__init__.py,.mypy_cache,.pytest_cache,*versions*,.venv,scripts
